@@ -1,0 +1,9 @@
+[submodule "apps/crossword"]
+	path = apps/crossword
+	url = https://github.com/DouweM/tidbyt-crossword.git
+[submodule "apps/letterboxd"]
+	path = apps/letterboxd
+	url = https://github.com/rspeicher/tidbyt-letterboxd.git
+[submodule "apps/revolution"]
+	path = apps/revolution
+	url = https://github.com/DouweM/tidbyt-revolution.git

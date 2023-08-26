@@ -1,8 +1,12 @@
 schedules:
-- name: hello-world
-  interval: '0 * * * *' # On the hour
-  job: hello-world
+- name: revolution
+  interval: '* * * * *'
+  job: revolution
 
-# - name: <app>
-#   interval: '*/15 * * * *' # Every 15 minutes
-#   job: <app>
+- name: letterboxd
+  interval: '0 */2 * * *' # Every 2 hours
+  job: letterboxd
+
+- name: crossword
+  interval: '30 * * * *' # Every hour
+  job: crossword
